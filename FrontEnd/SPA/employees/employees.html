@@ -1,0 +1,24 @@
+﻿<div>
+    <h2>{{title}}</h2>
+
+    <h4>First name</h4>
+    <input id="name" />
+
+    <div>
+        <input onclick="showInputSalary()" type="radio" name="type" value="full"> Full Time
+        <div hidden id="divSalary">
+            Salary
+            <input id="inputSalary" />
+        </div>
+        <br>
+        <input onclick="showInputHourly()" type="radio" name="type" value="part"> Part Time
+
+        <div hidden id="divHourly">
+            Hourly
+            <input id="inputHourly" />
+        </div>
+    </div>
+
+    <br>
+    <button onclick="saveUser()">Save</button>
+</div>
